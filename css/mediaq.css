@@ -1,0 +1,174 @@
+
+/* For medium devices */
+@media (max-width: 768px){
+    .home_secion{
+        padding: 50px;
+        min-height: fit-content;
+        top: 50px;
+    }
+
+    .card_list{
+        justify-content: space-around;
+        width: 80%;
+    }
+}
+
+@media (max-width: 425px){
+    .home_secion{
+        padding: 25px 10px;
+    }
+
+    .hero_btns{
+        margin: 20px auto;
+    }
+
+    .card{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .card_list{
+        display: block;
+        width: 83%;
+    }
+
+    .send-message-button{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .contact-for{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1200px){
+	.contact-for{
+		width: 300px;
+	}
+	.contact-for .contact-section-image{
+		width: 100%;
+		height: auto;
+	}
+	.contact-section-sub-content .input-all{
+		width: 500px;
+	}
+	.footer-section-all-list{
+		width: 80%;
+	}
+}
+@media (max-width:990px){
+	.contact-for{
+		width: 250px;
+	}
+	.contact-for .contact-section-image{
+		width: 100%;
+	}
+	.contact-section-sub-content .input-all{
+		width: 400px;
+	}
+	.contact-section-sub-content .empty{
+		width: 70px;
+	}
+	.list-1st, .list-2nd, .list-3rd{
+		width: 100px;
+	}
+	.footer-section-all-list{
+		width: 90%;
+	}
+}
+@media (max-width:767px){
+	.contact-section-sub-content{
+		display: block;
+		width: 80%;
+	}
+	.contact-section-sub-content .empty{
+		display: none;
+	}
+	.contact-section-sub-content .input-all{
+		margin-bottom: 50px;
+		width: 100%;
+	}
+	.contact-section-sub-content .contact-for{
+		width: 100%;
+	}
+	.contact-section .contact-section-content{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.contact-section .contact-section-content .contact-section-h2{
+		font-size: 37px;
+	}
+}
+
+
+
+/* footer section */
+@media screen and (max-width:425px){
+    .footer_row{
+        display: block;
+    }
+
+    .download_all .download{
+        margin: 0;
+    }
+
+    .download.apple_store{
+        margin-right: 5px;
+    }
+
+    .footer_col{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .footer_col_install_app{
+        width: 100%;
+        text-align: center;
+    }
+
+    .download_img{
+        width: 95px;
+        height: 28px;
+    }
+
+    .copyright_check_p{
+        font-size: 12px;
+    }
+
+    .download_all{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .download_all{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .download{
+        padding: 0 0;
+        margin-right: 5px;
+    }
+
+    .download_img{
+        width: 110px;
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .download{
+        margin-top: 5px;
+    }
+}

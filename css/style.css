@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", serif;
+    scroll-behavior: smooth;
+}
+
+
+/* home section start */
+
+.home_secion{
+    min-height: 400px;
+    width: 100%;
+    background-image: url(../images/background-img.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    top: 60px;
+    text-align: center;
+    padding: 50px 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_btns{
+    width: 250px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Card section start */
+
+.card{
+    width: 220px;
+    height: auto;
+    border: 1px solid var(--gray-color);
+    padding: 10px;
+}
+
+.card_list{
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card_header{
+    display: flex;
+}
+
+.card_header .head_icon{
+    font-size: 25px;
+}
+
+.card_header .card_header_txt{
+    text-align: left;
+}
+
+.card_header .card_header_h6{
+    font-size: 14px;
+}
+
+.card_header .card_header_p{
+    font-size: 10px;
+}
+
+.card_img{
+    height: auto;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.see_more_btn{
+    display: block;
+}
+
+
+/* Contact section start */
+
+.contact-section{
+	width: 100%;
+	height: auto;
+	background-color: #f8f9fa;
+    padding: 50px 0;
+}
+.contact-section .contact-section-content{
+	text-align: center;
+}
+.contact-section .contact-section-content .contact-section-h2{
+	font-size: 3.5rem;
+	line-height: 1.1;
+	font-weight: 400;
+	font-family: "Playfair Display", serif;
+	margin-bottom: 20px;
+}
+.contact-section .contact-section-content .contact-section-p{
+	font-size: 1.25rem;
+	font-weight: 300;
+	font-family: "Raleway", sans-serif;
+	color: #b8b8b8;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+.contact-section-image{
+	height: auto;
+	width: 400px;
+	margin-bottom: 15px;
+}
+.contact-section-sub-content{
+	display: flex;
+	justify-content: center;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+}
+.contact-section-sub-content .input-all{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+}
+.contact-section-sub-content .input-all .input-name{
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	background-color: #e6e6e6;
+	font-size: 18px;
+	font-family: inherit;
+	font-weight: 500;
+}
+.contact-section-sub-content .input-all .input-email{
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: none;
+	outline: none;
+	background-color: #e6e6e6;
+	font-size: 18px;
+	font-family: inherit;
+	font-weight: 500;
+}
+.contact-section-sub-content .input-all .text-area{
+	height: 225px;
+	border: none;
+	outline: none;
+	background-color: #e6e6e6;
+	font-size: 18px;
+	font-family: inherit;
+	font-weight: 500;
+	padding: 10px;
+}
+.contact-section-sub-content .empty{
+	width: 130px;
+	height: 500px;
+}
+.send-message-button{
+	width: 200px;
+	padding: 15px;
+	margin-top: 20px;
+	border: 2px solid #FDA403;
+	background-color: #FDA403;
+	color: white;
+	font-size: 16px;
+	font-family: "Playfair Display", serif;
+	transition: all .3s;
+	cursor: pointer;
+}
+.send-message-button:hover{
+	border-color: #cb8402;
+	background-color: #cb8402;
+}
+.address-link{
+	color: #FDA403;
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================  footer section start  ======================= */
+
+.footer_container{
+    padding: 50px 0 0;
+    
+}
+
+.footer_section{
+    background-color: var(--gray-color);
+}
+
+.download{
+    border: 2px solid gray;
+    padding: 17px 0;
+}
+
+.download:hover{
+    border-color: #a5b106;
+}
+
+.copyright_check{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    height: 60px;
+}
+
+.secured_pay{
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.download_all{
+    margin-top: 18px;
+}
+

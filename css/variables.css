@@ -1,0 +1,45 @@
+:root {
+    /* Primary Colors */
+    --primary-color: #3498db; /* Blue */
+    --secondary-color: #2ecc71; /* Green */
+    --accent-color: #e74c3c; /* Red */
+  
+    /* Neutral Colors */
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --gray-color: #bdc3c7;
+  
+    /* Background Colors */
+    --bg-light: #f4f4f4;
+    --bg-dark: #2c3e50;
+  
+    /* Text Colors */
+    --text-light: #fdd10e;
+    --text-dark: #2c3e50;
+  }
+
+
+.text_highlight{
+    color: var(--text-light);
+}
+
+.btn_custom{
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #2074e9;
+    color: white;
+    transition: all .3s;
+    text-decoration: none;
+    border: 0;
+}
+
+.btn_custom:hover{
+    color: white;
+    background-color: #4592ff;
+}
+
+.custom_section{
+    text-align: center;
+    width: 100%;
+    padding: 50px 0;
+}
